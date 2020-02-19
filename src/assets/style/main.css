@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: rgb(19, 19, 19);
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabularHolder:nth-child(even) {
+    background: rgb(235, 235, 235);
+}
+
+.tabularHolder:nth-child(odd) {
+    background: rgb(218, 218, 218);
+}
+
+.todoItem {
+    padding: 10px 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.todoTitle {
+    display: inline-block;
+    width: 70%;
+    padding-left: 10px;
+}
+
+.deleteBtn {
+    border: none;
+    background: rgb(224, 66, 66);
+    color: white;
+    border-radius: 5px;
+    line-height: 18px;
+    float: right;
+    cursor: pointer;
+    width: 50px;
+} .deleteBtn:hover {
+    background: rgb(196, 61, 61);
+}
+
+#addTodo {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(19, 19, 19);
+}
+
+.addTodoBtn {
+    background: rgba(91, 104, 223, 0.952);
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+}
+
+.formControl {
+    margin: 0;
+    outline: none;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    border: none;
+}
+
+.col-9 {
+    width: 60%;
+    display: inline-block;
+}
+
+.col-3 {
+    width: 40%;
+    display: inline-block;
+}
+
+.incomplete {
+    text-decoration: none;
+}
+
+.complete {
+    text-decoration: line-through;
+}
